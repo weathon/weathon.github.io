@@ -1,0 +1,76 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title></title>
+
+<link rel="stylesheet" type="text/css" href="css/style.css">
+　<meta name="viewport" content="initial-scale=1.0" />
+</head>
+<body>
+
+    <script src="/demos/googlegg.js"></script>
+    <script>  
+            
+             var   times=0;
+            var ok=0;
+            function prints(){  
+            times=times+1;
+            // alert(times);
+             var a=myform.name.value;  
+             if(a=="GWQ" || a=="gwq"){
+                 if(times==1)
+                 {
+                     alert("罒ω罒居然一次就猜对了……ヽ(￣▽￣)ﾉ");
+                 }
+                 else if(times<5)
+                 {
+                     alert("你咋猜得那么准呢？( • ̀ω•́ )✧");
+                 }
+                 else{
+                     alert("居然猜了这么多次才猜中!!!∑(ﾟДﾟノ)ノ");
+                 }
+                 ok=1;
+             }
+             else
+             {
+                 if(times>=5 && times<=9)
+                 {
+                    alert("不对，怎么可能是"+a+"!\n你都猜了这么多次了，还猜不中？(╥╯^╰╥)");
+                 }
+                 else if(times>=10 && times<=11){
+                     alert("都猜了十多次了!!!还没想到吗？∑(ﾟДﾟノ)ノ");
+                    //  document.getElementById('a').innerHTML +='<input type="button" name="button" value="揭秘" onclick="prints()" />  ';
+
+                 }
+                 else if(times>=12)
+                 {
+                     alert("算了算了，告诉你吧，我是GWQ(`皿´)");
+                     ok=1;
+                 }
+                 else{alert("不对，怎么可能是"+a+"!");}
+             }
+             if(ok==1)
+             {
+                 alert("无聊写的，别生气啊！");
+                 window.location.href='ip2.php?gps='+times
+             }
+            }  
+    </script> 
+<h3><font color="white">猜猜我是谁? ●ω● 在下面输入你猜想的人的拼音缩写(大写)，如OYYJ</font></h3>
+<form name="myform">  
+        <input type="text" name="name" id="nn" />  
+        <input type="button" name="button" value="确定" onclick="prints()" />  
+</form>    
+
+       
+
+<script type="text/javascript" src="js/index.js"></script>
+        <audio autoplay=1>
+                <source src="index.mp3" type="audio/mpeg">
+                <source src="index.ogg" type="audio/ogg">
+                <!-- <source src="index.mp3" type="audio/mpeg"> -->
+              Your browser does not support the audio tag.
+              </audio>
+</body>
+</html>
