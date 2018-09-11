@@ -1,0 +1,14 @@
+个人信息：
+姓名：郭闻起
+性别：男
+联系方式：QQ 2907154449
+电邮 tcs06358@163.com（或wguo6358@gmail.com）
+掌握开发技能：
+Python 可以独立完成简单项目
+HTML & JS & CSS（用jQuery搭建）可以独立完成WebAPP
+C++ 基本语法，不如Python熟练
+简单算法 基础算法和数据结构基本掌握
+AI相关知识及应用 机器学习(KNN和进化算法)的简单实现和运用
+Linux和Windows的基本环境搭建
+个人项目仓库：
+https://github.com/weathon(一般不使用开放仓库)
